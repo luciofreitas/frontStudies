@@ -79,7 +79,7 @@ body {
 
 .reportFor {
     color: #c3beff;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .profile-name {
@@ -108,6 +108,73 @@ body {
     background-color: #ff8b64;
 }
 
+.work-desc {
+    width: 100%;
+    border: 1px solid black;
+}
+
+#a-s-d-work {
+    height: 79%;
+    border-radius: 4%;
+    background-color: #1d204b;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: -28px;
+}
+
+#a-s-d-work-image {
+    filter: hue-rotate(45deg);
+    position: relative;
+    left: 150px;
+}
+
+.container-a-s-d-work-text {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    color: white;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+
+}
+#reticencias{
+    position: relative;
+    top: -8px;
+    font-size: 25px;
+}
+
+#timer {
+    text-align: left;
+    padding-left: 40px;
+    font-size: 50px;
+    font-weight: 300;
+}
+#timerLastWeek{
+    font-size: 12px;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 10px;
+    color:#7b7fb3;
+}
+
 #a-s-play {
     grid-area: 1/3;
 }
@@ -127,3 +194,4 @@ body {
 #a-s-self-care {
     grid-area: 2/4;
 }
+
