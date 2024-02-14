@@ -250,6 +250,31 @@ body {
 
 #a-s-self-care {
     grid-area: 2/4;
+    background-color: #f1c75b;
+}
+
+.self-care-desc {
+    width: 100%;
+    border: 1px solid black;
+}
+
+#a-s-d-self-care {
+    height: 79%;
+    border-radius: 4%;
+    background-color: #1d204b;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: -23px;
+}
+
+#a-s-d-self-care-image {
+    position: relative;
+    left: 150px;
+}
+
+.container-a-s-d-self-care-text {
+    font-family: 'Rubik', sans-serif;
+    color: white;
 }
 
 ul {
