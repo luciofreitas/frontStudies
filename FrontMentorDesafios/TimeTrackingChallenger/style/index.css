@@ -112,7 +112,7 @@ body {
     width: 100%;
 }
 
-.work-desc:hover{
+.work-desc:hover {
     background-color: #34397b !important;
     cursor: pointer;
 }
@@ -147,7 +147,7 @@ body {
     width: 100%;
 }
 
-.play-desc:hover{
+.play-desc:hover {
     background-color: #34397b !important;
     cursor: pointer;
 }
@@ -182,7 +182,7 @@ body {
     width: 100%;
 }
 
-.study-desc:hover{
+.study-desc:hover {
     background-color: #34397b !important;
     cursor: pointer;
 }
@@ -193,13 +193,13 @@ body {
     background-color: #1d204b;
     font-family: 'Rubik', sans-serif;
     position: relative;
-    top: -28px;
+    top: -27px;
 }
 
 #a-s-d-study-image {
     position: relative;
     left: 150px;
-    top:-5px;
+    top: -5px;
 }
 
 .container-a-s-d-study-text {
@@ -217,7 +217,7 @@ body {
     width: 100%;
 }
 
-.exercise-desc:hover{
+.exercise-desc:hover {
     background-color: #34397b !important;
     cursor: pointer;
 }
@@ -251,7 +251,7 @@ body {
     width: 100%;
 }
 
-.social-desc:hover{
+.social-desc:hover {
     background-color: #34397b !important;
     cursor: pointer;
 }
@@ -286,7 +286,7 @@ body {
     width: 100%;
 }
 
-.self-care-desc:hover{
+.self-care-desc:hover {
     background-color: #34397b !important;
     cursor: pointer;
 }
@@ -303,7 +303,7 @@ body {
 #a-s-d-self-care-image {
     position: relative;
     left: 150px;
-    top:-8px;
+    top: -8px;
 }
 
 .container-a-s-d-self-care-text {
@@ -354,4 +354,12 @@ li a {
     padding-left: 40px;
     margin-top: 10px;
     color: #7b7fb3;
+}
+
+#profile-menu-daily,
+#profile-menu-weekly,
+#profile-menu-monthly {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: white;
 }
