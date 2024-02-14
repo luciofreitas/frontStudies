@@ -220,6 +220,32 @@ body {
 
 #a-s-social {
     grid-area: 2/3;
+    background-color: #7235d1;
+}
+
+.social-desc {
+    width: 100%;
+    border: 1px solid black;
+}
+
+#a-s-d-social {
+    height: 79%;
+    border-radius: 4%;
+    background-color: #1d204b;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: -30px;
+}
+
+#a-s-d-social-image {
+    position: relative;
+    left: 150px;
+    top: -6px;
+}
+
+.container-a-s-d-social-text {
+    font-family: 'Rubik', sans-serif;
+    color: white;
 }
 
 #a-s-self-care {
