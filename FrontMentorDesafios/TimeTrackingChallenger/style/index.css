@@ -105,11 +105,16 @@ body {
 #a-s-work {
     grid-area: 1/2;
     background-color: #ff8b64;
+    overflow: hidden;
 }
 
 .work-desc {
     width: 100%;
-    border: 1px solid black;
+}
+
+.work-desc:hover{
+    background-color: #34397b !important;
+    cursor: pointer;
 }
 
 #a-s-d-work {
@@ -124,6 +129,7 @@ body {
 #a-s-d-work-image {
     position: relative;
     left: 150px;
+    top: -5px;
 }
 
 .container-a-s-d-work-text {
@@ -134,11 +140,16 @@ body {
 #a-s-play {
     grid-area: 1/3;
     background-color: #56c2e6;
+    overflow: hidden;
 }
 
 .play-desc {
     width: 100%;
-    border: 1px solid black;
+}
+
+.play-desc:hover{
+    background-color: #34397b !important;
+    cursor: pointer;
 }
 
 #a-s-d-play {
@@ -153,6 +164,7 @@ body {
 #a-s-d-play-image {
     position: relative;
     left: 150px;
+    top: -2px;
 }
 
 .container-a-s-d-play-text {
@@ -163,11 +175,16 @@ body {
 #a-s-study {
     grid-area: 1/4;
     background-color: #ff5e7d;
+    overflow: hidden;
 }
 
 .study-desc {
     width: 100%;
-    border: 1px solid black;
+}
+
+.study-desc:hover{
+    background-color: #34397b !important;
+    cursor: pointer;
 }
 
 #a-s-d-study {
@@ -182,6 +199,7 @@ body {
 #a-s-d-study-image {
     position: relative;
     left: 150px;
+    top:-5px;
 }
 
 .container-a-s-d-study-text {
@@ -192,11 +210,16 @@ body {
 #a-s-exercise {
     grid-area: 2/2;
     background-color: #4bcf83;
+    overflow: hidden;
 }
 
 .exercise-desc {
     width: 100%;
-    border: 1px solid black;
+}
+
+.exercise-desc:hover{
+    background-color: #34397b !important;
+    cursor: pointer;
 }
 
 #a-s-d-exercise {
@@ -221,11 +244,16 @@ body {
 #a-s-social {
     grid-area: 2/3;
     background-color: #7235d1;
+    overflow: hidden;
 }
 
 .social-desc {
     width: 100%;
-    border: 1px solid black;
+}
+
+.social-desc:hover{
+    background-color: #34397b !important;
+    cursor: pointer;
 }
 
 #a-s-d-social {
@@ -240,7 +268,7 @@ body {
 #a-s-d-social-image {
     position: relative;
     left: 150px;
-    top: -6px;
+    top: -10px;
 }
 
 .container-a-s-d-social-text {
@@ -251,11 +279,16 @@ body {
 #a-s-self-care {
     grid-area: 2/4;
     background-color: #f1c75b;
+    overflow: hidden;
 }
 
 .self-care-desc {
     width: 100%;
-    border: 1px solid black;
+}
+
+.self-care-desc:hover{
+    background-color: #34397b !important;
+    cursor: pointer;
 }
 
 #a-s-d-self-care {
@@ -270,6 +303,7 @@ body {
 #a-s-d-self-care-image {
     position: relative;
     left: 150px;
+    top:-8px;
 }
 
 .container-a-s-d-self-care-text {
@@ -300,7 +334,8 @@ li a {
     text-decoration: none;
 
 }
-#reticencias{
+
+#reticencias {
     position: relative;
     top: -8px;
     font-size: 25px;
@@ -312,11 +347,11 @@ li a {
     font-size: 50px;
     font-weight: 300;
 }
-#timerLastWeek{
+
+#timerLastWeek {
     font-size: 12px;
     text-align: left;
     padding-left: 40px;
     margin-top: 10px;
-    color:#7b7fb3;
+    color: #7b7fb3;
 }
-
