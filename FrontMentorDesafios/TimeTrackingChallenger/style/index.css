@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -51,7 +52,6 @@ body {
     height: 70%;
     border-radius: 4%;
     background-color: #5746ea;
-    font-family: 'Rubik', sans-serif;
 }
 
 .container-a-s-d-profile-image {
@@ -121,7 +121,6 @@ body {
     height: 79%;
     border-radius: 4%;
     background-color: #1d204b;
-    font-family: 'Rubik', sans-serif;
     position: relative;
     top: -28px;
 }
@@ -132,8 +131,12 @@ body {
     top: -5px;
 }
 
-.container-a-s-d-work-text {
-    font-family: 'Rubik', sans-serif;
+.container-a-s-d-work-text,
+.container-a-s-d-play-text,
+.container-a-s-d-study-text,
+.container-a-s-d-exercise-text,
+.container-a-s-d-social-text,
+.container-a-s-d-self-care-text {
     color: white;
 }
 
@@ -156,7 +159,6 @@ body {
     height: 79%;
     border-radius: 4%;
     background-color: #1d204b;
-    font-family: 'Rubik', sans-serif;
     position: relative;
     top: -28px;
 }
@@ -166,12 +168,7 @@ body {
     left: 150px;
     top: -2px;
 }
-
-.container-a-s-d-play-text {
-    font-family: 'Rubik', sans-serif;
-    color: white;
-}
-
+ 
 #a-s-study {
     grid-area: 1/4;
     background-color: #ff5e7d;
@@ -191,7 +188,6 @@ body {
     height: 79%;
     border-radius: 4%;
     background-color: #1d204b;
-    font-family: 'Rubik', sans-serif;
     position: relative;
     top: -27px;
 }
@@ -200,11 +196,6 @@ body {
     position: relative;
     left: 150px;
     top: -5px;
-}
-
-.container-a-s-d-study-text {
-    font-family: 'Rubik', sans-serif;
-    color: white;
 }
 
 #a-s-exercise {
@@ -226,7 +217,6 @@ body {
     height: 79%;
     border-radius: 4%;
     background-color: #1d204b;
-    font-family: 'Rubik', sans-serif;
     position: relative;
     top: -10px;
 }
@@ -234,11 +224,6 @@ body {
 #a-s-d-exercise-image {
     position: relative;
     left: 150px;
-}
-
-.container-a-s-d-exercise-text {
-    font-family: 'Rubik', sans-serif;
-    color: white;
 }
 
 #a-s-social {
@@ -260,7 +245,6 @@ body {
     height: 79%;
     border-radius: 4%;
     background-color: #1d204b;
-    font-family: 'Rubik', sans-serif;
     position: relative;
     top: -30px;
 }
@@ -269,11 +253,6 @@ body {
     position: relative;
     left: 150px;
     top: -10px;
-}
-
-.container-a-s-d-social-text {
-    font-family: 'Rubik', sans-serif;
-    color: white;
 }
 
 #a-s-self-care {
@@ -295,7 +274,6 @@ body {
     height: 79%;
     border-radius: 4%;
     background-color: #1d204b;
-    font-family: 'Rubik', sans-serif;
     position: relative;
     top: -23px;
 }
@@ -304,11 +282,6 @@ body {
     position: relative;
     left: 150px;
     top: -8px;
-}
-
-.container-a-s-d-self-care-text {
-    font-family: 'Rubik', sans-serif;
-    color: white;
 }
 
 ul {
@@ -359,7 +332,6 @@ li a {
 #profile-menu-daily,
 #profile-menu-weekly,
 #profile-menu-monthly {
-    font-family: 'Rubik', sans-serif;
     text-decoration: none;
     color: white;
 }
